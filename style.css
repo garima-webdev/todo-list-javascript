@@ -1,0 +1,44 @@
+/* .completed{
+    text-decoration: line-through;
+} */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+#taskInput{
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button{
+    padding: 10px 14px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#taskList{
+    padding: 0;
+    list-style: none;
+}
+
+#taskList li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+}
+
+#taskList span{
+    flex: 1;
+}
